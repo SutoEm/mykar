@@ -19,5 +19,12 @@ Product, technical, legal, and decision documentation lives here. Keep documents
 - `Roadmap.md`
 - `Phase0.md`
 - `Phase1.md`
+- `Phase2.md`
 - `DecisionLog.md`
 - `Graveyard.md`
+
+## Database Design
+
+- `Database.md`
+- `ERD.md`
+- `DataDictionary.md`

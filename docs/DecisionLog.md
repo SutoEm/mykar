@@ -31,3 +31,9 @@ Reason: All Phase 0 gates now have operational evidence. Phase 1 can proceed as 
 Decision: Draft Phase 1 as code-free product design artifacts before starting database or feature implementation.
 
 Reason: The product needs a shared definition of user value, MVP scope, trust rules, success metrics, UI flow, and wireframes before Phase 2 data design begins.
+
+## 2026-07-06: Phase 2 Database Foundation
+
+Decision: Define the MVP database around profiles, vehicles, ownership, vehicle memory, reminders, notification preferences, and Supabase Storage metadata.
+
+Reason: Vehicle memory needs ownership-based access control and trustworthy data boundaries before backend implementation starts. Phase 3 should use this schema through an API/business logic layer rather than direct mobile-to-database coupling.
