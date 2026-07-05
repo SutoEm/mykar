@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "My Kar",
+    "slug": "my-kar",
+    "scheme": "mykar",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mykar.mobile"
+    },
+    "android": {
+      "package": "com.mykar.mobile"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
