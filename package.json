@@ -11,9 +11,11 @@
     "dev": "npm run dev --workspace @my-kar/mobile",
     "lint": "npm run lint --workspaces --if-present",
     "lint-staged": "lint-staged",
+    "test": "npm run test --workspaces --if-present",
     "typecheck": "npm run typecheck --workspaces --if-present",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
+    "audit:moderate": "npm audit --audit-level=moderate",
     "prepare": "husky"
   },
   "lint-staged": {
@@ -29,6 +31,9 @@
     "lint-staged": "^15.2.11",
     "prettier": "^3.3.3",
     "typescript": "^5.6.3"
+  },
+  "overrides": {
+    "uuid": "11.1.1"
   },
   "engines": {
     "node": ">=20.0.0",

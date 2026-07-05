@@ -8,7 +8,7 @@ My Kar helps vehicle owners preserve the full memory of a car: maintenance, owne
 
 ## Current Status
 
-Foundation setup. No business features are implemented yet.
+Phase 0 Foundation is the active phase. No business features are implemented yet, and no feature work should start until the foundation gates in `docs/Phase0.md` are complete.
 
 ## Tech Stack
 
@@ -62,8 +62,10 @@ npm run dev --workspace @my-kar/mobile
 
 ```bash
 npm run lint
+npm test
 npm run typecheck
 npm run format:check
+npm run audit:moderate
 ```
 
 ## Contribution Guide
@@ -74,6 +76,8 @@ npm run format:check
 - Put reusable logic in hooks, services, utils, or feature modules.
 - Avoid unnecessary dependencies.
 - Update documentation when architecture or product decisions change.
+- Write or update documentation before implementing product behavior.
+- Check `docs/Graveyard.md` before adding new scope.
 
 ## Branch Strategy
 
@@ -82,6 +86,8 @@ npm run format:check
 - `feature/*`: new functionality
 - `fix/*`: bug fixes
 - `hotfix/*`: urgent production fixes
+
+`main` must stay protected. Product work should branch from `develop`, pass CI, and merge through pull requests.
 
 ## Commit Convention
 
