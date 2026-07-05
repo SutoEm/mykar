@@ -19,3 +19,9 @@ Reason: My Kar needs phase gates, documentation, tests, and decision reviews bef
 Decision: Start with a clean monolith-style architecture and avoid Repository Pattern, CQRS, Event Bus, DDD, and microservices until the product creates real pressure for them.
 
 Reason: The MVP needs speed, clarity, and low operational load. Premature architecture would create technical debt before product learning.
+
+## 2026-07-05: Phase 0 Closed
+
+Decision: Close Phase 0 Foundation after creating the GitHub Project board and verifying `develop`, `main` branch protection, CI, documentation, issue templates, Husky, and branch strategy.
+
+Reason: All Phase 0 gates now have operational evidence. Phase 1 can proceed as a code-free product design phase.

@@ -32,27 +32,27 @@ npm run audit:moderate
 
 ## Phase 0 Checklist
 
-| Item              | Status   | Evidence                                                       |
-| ----------------- | -------- | -------------------------------------------------------------- |
-| GitHub repository | Done     | `origin` points to `SutoEm/mykar.git`                          |
-| Monorepo          | Done     | `apps/*`, `packages/*`, `backend`, `docs`, `design`, `scripts` |
-| React Native      | Done     | `react-native` dependency in `apps/mobile`                     |
-| Expo              | Done     | `expo` and `expo-router` in `apps/mobile`                      |
-| TypeScript        | Done     | `tsconfig.base.json` and mobile `tsconfig.json`                |
-| ESLint            | Done     | `apps/mobile/.eslintrc.cjs`                                    |
-| CI                | Done     | `.github/workflows/ci.yml`                                     |
-| Documentation     | Done     | `docs/` operating documents                                    |
-| Project board     | External | Requires GitHub project access                                 |
-| Issue templates   | Done     | `.github/ISSUE_TEMPLATE`                                       |
-| Husky             | Done     | `.husky/pre-commit`                                            |
-| Branch strategy   | Done     | README and branch protection rules                             |
+| Item              | Status | Evidence                                                       |
+| ----------------- | ------ | -------------------------------------------------------------- |
+| GitHub repository | Done   | `origin` points to `SutoEm/mykar.git`                          |
+| Monorepo          | Done   | `apps/*`, `packages/*`, `backend`, `docs`, `design`, `scripts` |
+| React Native      | Done   | `react-native` dependency in `apps/mobile`                     |
+| Expo              | Done   | `expo` and `expo-router` in `apps/mobile`                      |
+| TypeScript        | Done   | `tsconfig.base.json` and mobile `tsconfig.json`                |
+| ESLint            | Done   | `apps/mobile/.eslintrc.cjs`                                    |
+| CI                | Done   | `.github/workflows/ci.yml`                                     |
+| Documentation     | Done   | `docs/` operating documents                                    |
+| Project board     | Done   | `https://github.com/orgs/SutoEm/projects/1`                    |
+| Issue templates   | Done   | `.github/ISSUE_TEMPLATE`                                       |
+| Husky             | Done   | `.husky/pre-commit`                                            |
+| Branch strategy   | Done   | README and branch protection rules                             |
 
 ## Decision Review
 
-Phase 0 remains open until the external GitHub controls are verified:
+Phase 0 is complete. The external GitHub controls are verified:
 
 - `develop` branch exists on GitHub.
 - `main` branch protection is active.
 - Project board exists and tracks phases.
 
-After these are verified, Phase 1 can begin as a code-free product design phase.
+Phase 1 can proceed as a code-free product design phase.
