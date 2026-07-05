@@ -25,3 +25,9 @@ Reason: The MVP needs speed, clarity, and low operational load. Premature archit
 Decision: Close Phase 0 Foundation after creating the GitHub Project board and verifying `develop`, `main` branch protection, CI, documentation, issue templates, Husky, and branch strategy.
 
 Reason: All Phase 0 gates now have operational evidence. Phase 1 can proceed as a code-free product design phase.
+
+## 2026-07-05: Phase 1 Product Design Draft
+
+Decision: Draft Phase 1 as code-free product design artifacts before starting database or feature implementation.
+
+Reason: The product needs a shared definition of user value, MVP scope, trust rules, success metrics, UI flow, and wireframes before Phase 2 data design begins.
