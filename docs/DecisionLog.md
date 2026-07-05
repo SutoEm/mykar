@@ -19,3 +19,9 @@ Reason: My Kar needs phase gates, documentation, tests, and decision reviews bef
 Decision: Start with a clean monolith-style architecture and avoid Repository Pattern, CQRS, Event Bus, DDD, and microservices until the product creates real pressure for them.
 
 Reason: The MVP needs speed, clarity, and low operational load. Premature architecture would create technical debt before product learning.
+
+## 2026-07-05: Phase 1 Product Design Draft
+
+Decision: Draft Phase 1 as code-free product design artifacts before starting database or feature implementation.
+
+Reason: The product needs a shared definition of user value, MVP scope, trust rules, success metrics, UI flow, and wireframes before Phase 2 data design begins.

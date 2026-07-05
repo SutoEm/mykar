@@ -41,13 +41,13 @@ Artifacts:
 - `Vision.md`
 - `Manifesto.md`
 - `MVP.md`
-- `User Personas.md`
-- `User Stories.md`
-- `Feature Matrix.md`
-- `Data Trust Model.md`
-- `Success Metrics.md`
-- UI flow
-- Wireframes
+- `UserPersonas.md`
+- `UserStories.md`
+- `FeatureMatrix.md`
+- `DataTrustModel.md`
+- `SuccessMetrics.md`
+- `UIFlow.md`
+- `design/Wireframes.md`
 
 ## Phase 2: Database
 
